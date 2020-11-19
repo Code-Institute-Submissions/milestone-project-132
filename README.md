@@ -40,6 +40,9 @@ User stories:
 - Github
 
 ## Testing ##
+Error related to file originally named "about.html"
+Upon visiting this page we would see a blank page despite the navbar being correctly implemented here.
+It seems that changing the name of the file fixed the issue (and reverting back to the old name caused it to reappear).
 
 ## Deployment ##
 

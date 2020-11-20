@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700');
+
 * {
     box-sizing: border-box;
 }
+
+/* -------------- Home Page Styling -------------- */
+
+.einstein-quote {
+    font-family: "Roboto Mono", sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+
+.hero-image{
+    margin: auto;
+    width: 50%;
+    display: block;
+}
+
+
+
 
 /* -------------- Footer Styling -------------- */
 

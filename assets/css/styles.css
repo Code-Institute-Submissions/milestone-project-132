@@ -1,24 +1,40 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:100,200,300,400,500,600,700');
 
 * {
     box-sizing: border-box;
 }
 
+/* -------------- General Styling -------------- */
+.text-green {
+    color: seagreen;
+}
+
+.text-grey {
+    color: #808080;
+}
+
+.general-link-decoration {
+    color: inherit;
+}
+
+.general-link-decoration:hover {
+    text-decoration: none;
+    color: seagreen;
+}
+
 /* -------------- Home Page Styling -------------- */
 
 .einstein-quote {
-    font-family: "Roboto Mono", sans-serif;
+    font-family: "Playfair Display", sans-serif;
     text-align: center;
     font-size: 32px;
 }
 
 .hero-image{
     margin: auto;
-    width: 50%;
+    width: 75%;
     display: block;
 }
-
-
 
 
 /* -------------- Footer Styling -------------- */
@@ -26,6 +42,7 @@
 .footer-styling {
     background-color: #DCDCDC;
     padding: 5px 0px;
+    clear: both;
 }
 
 .footer-styling div ul li a {
@@ -52,7 +69,45 @@
      color: #808080;
 }
 
-.footer-styling a:hover{
-    color: green;
-    text-decoration: none;
+/* -------------- Sign Up Form Styling -------------- */
+.sign-up-image {
+    background: url("../images/bw-background.jpg") no-repeat center;
+    background-size: cover;
+    margin: auto;
+}
+
+.sign-up-heading {
+    font-weight: 600;
+    padding-top: 80px;
+    padding-bottom: 10px;
+    color: #fafafa;
+}
+
+.sign-up-subheading {
+    font-weight: 500;
+    padding-top: 0px;
+    padding-bottom: 40px;
+    color: #fafafa;
+}
+
+.center-form {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.form-control {
+     line-height: 50px;
+}
+
+.submit-button {
+    padding-top: 40px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: red;
 }

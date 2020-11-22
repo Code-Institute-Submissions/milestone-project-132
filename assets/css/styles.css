@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:100,200,300,400,500,600,700|Roboto:100, 200, 300, 400, 500, 600, 700');
 
 * {
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 /* -------------- General Styling -------------- */
@@ -24,13 +25,28 @@
 
 /* -------------- Home Page Styling -------------- */
 
+.hero-text {
+    padding-top: 20px;
+    text-transform:uppercase;
+    text-align: center;
+    font-weight: 500; 
+    font-family: "Playfair Display";
+    color: #fafafa;
+}
+
+.hero-image{
+    height: 640px;
+    background-image: url("../images/barber-shop2.jpg");
+    background-size: cover;
+}
+
 .einstein-quote {
     font-family: "Playfair Display", sans-serif;
     text-align: center;
     font-size: 32px;
 }
 
-.hero-image{
+.einstein-image{
     margin: auto;
     width: 65%;
     display: block;
@@ -38,44 +54,11 @@
 
 /* -------------- About Us Styling -------------- */
 .about-image {
-    max-width:300px;
+    width:100%;
     height: 350px;
     padding: 1% 0%;
     margin: 0;
     display: block;
-}
-
-
-/* -------------- Footer Styling -------------- */
-
-.footer-styling {
-    background-color: #DCDCDC;
-    padding: 5px 0px;
-    clear: both;
-}
-
-.footer-styling div ul li a {
-    color: #808080;
-    font-size: 40px;
-    text-align: center;
-    line-height: 20px;
-    margin: 0;
-}
-.footer-styling ul {
-    margin-bottom: 0px;
-}
-
-.footer-brandname {
-    text-align: right;
-    color: #808080;
-    padding-right: 5px;
-    font-weight: 200;
-    padding-top: 10px;
-    font-size: 16px;
-}
-
-.footer-brandname-link {
-     color: #808080;
 }
 
 /* -------------- Sign Up Form Styling -------------- */
@@ -119,4 +102,49 @@ button[type="submit"] {
     margin-bottom: 20px;
     color: #fafafa;
     background-color: seagreen;
+}
+
+/* -------------- Header Styling -------------- */
+.dna-icon {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+    color: rgb(170, 0, 0);
+    font-size: 16px;
+}
+
+.scissor-icon {
+    color: #C0C0C0;
+    font-size: 16px;
+}
+
+/* -------------- Footer Styling -------------- */
+
+.footer-styling {
+    background-color: #DCDCDC;
+    padding: 5px 0px;
+    clear: both;
+}
+
+.footer-styling div ul li a {
+    color: #808080;
+    font-size: 40px;
+    text-align: center;
+    line-height: 20px;
+    margin: 0;
+}
+.footer-styling ul {
+    margin-bottom: 0px;
+}
+
+.footer-brandname {
+    text-align: right;
+    color: #808080;
+    padding-right: 5px;
+    font-weight: 200;
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+.footer-brandname-link {
+     color: #808080;
 }

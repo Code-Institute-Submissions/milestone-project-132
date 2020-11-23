@@ -25,6 +25,13 @@
 
 /* -------------- Home Page Styling -------------- */
 
+
+.hero-image{
+    height: 640px;
+    width:90%;
+    background-image: url("../images/barber-shop2.jpg") no-repeat center center;
+}
+
 .header-text {
     padding-top: 20px;
     padding-bottom: 10px;
@@ -33,12 +40,6 @@
     font-weight: 500; 
     font-family: "Playfair Display";
     color: #fafafa;
-}
-
-.hero-image{
-    height: 640px;
-    background-image: url("../images/barber-shop2.jpg");
-    background-size: cover;
 }
 
 .einstein-quote {

@@ -26,7 +26,7 @@
 /* -------------- Home Page Styling -------------- */
 
 .hero-image{
-    height: 640px;
+    height: 88.5vh;
     width:100%;
     background-image: url("../images/barber-shop2.jpg");
     background-size: cover;
@@ -35,14 +35,22 @@
     margin: auto;
 }
 
+.hero-padding {
+    padding-top: 100px;
+}
+
 .header-text {
-    padding-top: 20px;
-    padding-bottom: 10px;
     text-transform:uppercase;
-    text-align: center;
     font-weight: 500; 
     font-family: "Playfair Display";
     color: #fafafa;
+    padding-bottom: 10px;
+    position: relative;
+    text-align: center;
+}
+
+.header-padding {
+    padding-top: 20px;
 }
 
 .einstein-quote {
@@ -63,10 +71,15 @@
 }
 
 .about-image {
-    width:100%;
+    width: 100%;
     height: 350px;
     margin: 0;
     display: block;
+}
+
+.card-width-styling {
+    width: 18rem;
+    margin: auto;
 }
 
 /* -------------- Testimonials Styling -------------- */
@@ -172,17 +185,28 @@ button[type="submit"] {
 
 /* -------------- Media Queries -------------- */
 
-@media only screen and (min-height: 1024px)
-{
+@media only screen and (min-height: 1024px){
     .sign-up-image {
         height: 1024px;
     }
+
+    .hero-image {
+        height: 948px;
+    }
 }
 
-@media only screen and (min-height: 1366px) and (min-width: 1024px)
-{
+@media only screen and (min-height: 1366px){
     .sign-up-image {
-        height: 1300px;
-        width: 1024px;
+        height: 1366px;
+    }
+
+    .hero-image {
+        height: 1290px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    .card-width-styling{
+        width: 21rem;
     }
 }

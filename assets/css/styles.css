@@ -98,9 +98,18 @@
 }
 
 /* -------------- Testimonials Styling -------------- */
+.testimonial-header-padding {
+    padding-top: 2.5vh;
+    margin-bottom: 2.5vh;
+}
 
-.carousel-item{
-    height:550px;
+.carousel-container {
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-image {
+    max-height: calc(90vh - 108px);
 }
 
 .testimonial-text {

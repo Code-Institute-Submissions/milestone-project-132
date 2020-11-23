@@ -33,7 +33,7 @@
 .hero-image{
     height: 88.5vh;
     width:100%;
-    background-image: url("../images/barber-shop2.jpg");
+    background-image: url("../images/home/hero-haircut.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -110,7 +110,7 @@
 
 /* -------------- Sign Up Form Styling -------------- */
 .sign-up-image {
-    background: url("../images/bw-background.jpg") no-repeat center;
+    background: url("../images/sign-up/bw-background.jpg") no-repeat center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 

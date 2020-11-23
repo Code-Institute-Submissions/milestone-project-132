@@ -2,6 +2,7 @@
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
     font-family: "Roboto", sans-serif;
 }
 
@@ -12,6 +13,10 @@
 
 .text-grey {
     color: #808080;
+}
+
+.text-playfair {
+    font-family: "Playfair Display", sans-serif;
 }
 
 .general-link-decoration {
@@ -66,6 +71,7 @@
 }
 
 /* -------------- About Us Styling -------------- */
+
 .about-card {
     margin: 20px 0px;
 }
@@ -77,9 +83,18 @@
     display: block;
 }
 
+.card-body {
+    background-color: #DCDCDC;
+}
+
 .card-width-styling {
     width: 18rem;
     margin: auto;
+}
+
+.card-icon {
+    color: seagreen;
+    font-size: 24px;
 }
 
 /* -------------- Testimonials Styling -------------- */

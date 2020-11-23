@@ -53,3 +53,8 @@ It seems that changing the name of the file fixed the issue (and reverting back 
 ### Media ###
 
 ### Acknowledgement ###
+The Card section of the about page is very closely modelled on examples provided in the Card section of the components page on the bootstrap website:
+[Bootstrap 4 Card Component](https://getbootstrap.com/docs/4.5/components/card/)
+
+The Carousel section of the testimonials page is very closely modelled on examples provided in the Carousel section of the components page on the bootstrap website:
+[Bootstrap 4 Carousel Component](https://getbootstrap.com/docs/4.5/components/carousel/])

@@ -27,7 +27,7 @@ User stories:
 - As a user type, I am aware of the product and most of its features and would like to sign up
 
 Site owner story:
-- Wants to present the basics of what the application can do in a manner that will entice potential users to sign up for the beta verison of the app.
+- Wants to present the basics of what the application can do in a manner that will entice potential users to sign up for the beta version of the app.
 
 ### Five Planes ###
 * Strategy: Given the above user and site-owner stories, the strategy is to convey basic information regarding the app in a way that is easy to understand. The website will provide the opportunity for users to sign up to the app and showcase some testimonials to show how other users have enjoyed using it.
@@ -38,15 +38,15 @@ Site owner story:
 
     #### Wireframes ####
 
-    - [Desktop Home](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-home.png)
-    - [Desktop About](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-about.png)
-    - [Desktop Testimonials](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-testimonials.png)
-    - [Desktop Sign-Up](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-sign-up.png)
+    - [Desktop Home](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-home.jpg)
+    - [Desktop About](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-about.jpg)
+    - [Desktop Testimonials](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-testimonials.jpg)
+    - [Desktop Sign-Up](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-sign-up.jpg)
 
-    - [Mobile Home](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-home.png)
-    - [Mobile About](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-about.png)
-    - [Mobile Testimonials](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-testimonials.png)
-    - [Mobile Sign-Up](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-sign-up.png)
+    - [Mobile Home](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-home.jpg)
+    - [Mobile About](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-about.jpg)
+    - [Mobile Testimonials](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-testimonials.jpg)
+    - [Mobile Sign-Up](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-sign-up.jpg)
 
 * Surface: I will chiefly use muted colours (black, grey, white) along with a seagreen to enhance the minimal and 'fresh' feel of the website. Images will be mainly black & white with some of bright colour for contrast.
 
@@ -59,27 +59,27 @@ On each page:
 - Footer with social media links (Instagram & YouTube) and a further link to the initial page position
 - Underlining of the active page/section was removed as this could be slightly confusing with the merger of Home and About into one page but two sections
 
-[Home](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/home-live.png)
+[Home](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/home-live.jpg)
 
 On the Home/About page (as noted above, these two were combined)
 - Hero image to catch the user's eye and immediately set the context of the app - men's haircuts
 - An About section featuring Bootstrap's Card component to easily display 4 facets of the app, along with images of well styled gents. The Card component will be responsive in the sense that the 4 cards will move to 2 rows of 2 when the screen width is smaller than Bootstrap's xl size.
 - A reference to Einstein's quote about god not playing dice, along with an image of his own "Hairitage", i.e. the evolution of his famous hair over the years. The idea being that using Hairitage ensures the user will no longer be "playing dice" whenever they visit a new barber
 
-[About](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/about-live.png)
+[About](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/about-live.jpg)
 
 On the Testimonials page
 - Bootstrap's Carousel component featuring 4 images, together with quotes, from happy users of the app
-- The images and quotes will be used to highlight common problems that the app can address. For example, a man with an esoteric looking mohican states that his hair can only be styled/cut right by looking at previous pictures of it. Having used the Before/After feature of the app to record previous cuts, this is no problem for our gent.
+- The images and quotes will be used to highlight common problems that the app can address. For example, a man with an esoteric looking mohawk states that his hair can only be styled/cut right by looking at previous pictures of it. Having used the Before/After feature of the app to record previous cuts, this is no problem for our gent.
 
-[Testimonials](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/testimonials-live.png)
+[Testimonials](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/testimonials-live.jpg)
 
 On the Sign Up page
 - A very simple input form requiring first name, last name and email address
 - A button accompanies the form, declaring that the user can "Request Download Link"
 - A background image further enforces the idea of the application and its users as being fashionable gents
 
-[Sign up](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/sign-up-live.png)
+[Sign up](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/sign-up-live.jpg)
 
 ## Technologies, Frameworks & Tools Used ##
 - HTML/HTML5
@@ -92,13 +92,13 @@ On the Sign Up page
 - tinypng: reduce image file size
 
 ## Testing ##
-- [HTML code validator](https://validator.w3.org/) - No errors or warnings (after fixing 1 inital bug identified this way)
+- [HTML code validator](https://validator.w3.org/) - No errors or warnings (after fixing 1 initial bug identified this way)
 - [CSS code validator](https://jigsaw.w3.org/css-validator/) - No errors or warnings
 - Checking that all links are live and lead to the expected destination. Checking that this is true for all pages.
 - Viewing all pages on all of the available devices in Chrome developer tools. Several issues discovered this way and fixed satisfactorily. There may still be screen sizes for which the behaviour is not perfect.
-- Checking for and removing any unused css classes
-- Checking for and removing any unused features within css classes
-- Checking all images have alternate text (background-images were excluded from the check as they are purely aestetic)
+- Checking for and removing any unused CSS classes
+- Checking for and removing any unused features within CSS classes
+- Checking all images have alternate text (background-images were excluded from the check as they are purely aesthetic)
 - Test using Chrome and Safari
 - Check that all Bootstrap columns are children of Bootstrap rows
 
@@ -122,9 +122,9 @@ This meant that the screen was filled without undue distortion of the image. How
 ## Deployment ##
 This section closely follows the example given here: [README example](https://github.com/AJGreaves/portrait-artist/blob/master/README.md)
 
-The project was developed using the Gitpod IDE and commited to github with git.
+The project was developed using the Gitpod IDE and committed to github with git.
 
-The project was depolyed from its [GitHub repository](https://github.com/spf34/milestone-project-1) to GitHub pages using the usual steps:
+The project was deployed from its [GitHub repository](https://github.com/spf34/milestone-project-1) to GitHub pages using the usual steps:
 1. Navigate to the repository on GitHub
 2. Click 'Settings' and scroll down to the 'GitHub Pages' subsection
 3. Under Source click the drop-down menu labelled None and select Master Branch
@@ -146,9 +146,8 @@ I found the idea of using two classes of images with different aspect ratios dep
 [Stack Overflow Media Query Question](https://stackoverflow.com/questions/23459754/trying-to-show-two-different-images-depending-on-two-media-queries)
 
 ### Media ###
-Images were taken from Upsplash:
-https://unsplash.com/
+Images were taken from [Upsplash](https://unsplash.com/)
 
 ### Acknowledgement ###
 - My tutor, Nishant Kumar, for ideas and debugging help
-- The tutor support team at CodeInstitute 
+- The tutor support team at Code Institute 

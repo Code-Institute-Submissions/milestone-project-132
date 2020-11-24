@@ -100,7 +100,7 @@
 /* -------------- Testimonials Styling -------------- */
 .testimonial-header-padding {
     padding-top: 2.5vh;
-    margin-bottom: 2.5vh;
+    margin-bottom: 2.5vh
 }
 
 .carousel-container {
@@ -108,8 +108,27 @@
     margin: auto;
 }
 
+.carousel-caption {
+    background-color: #CDCDCD; 
+    background-position: center center; 
+    font-size: 16px;
+    width: 100%;
+    position: relative;
+    bottom: 0px;
+    left: 0% !important;
+    right: 0% !important;
+}
+
 .carousel-image {
-    max-height: calc(90vh - 108px);
+    max-height: 90vh;
+}
+
+.hidden-desktop {
+    display: block;
+}
+
+.hidden-mobile {
+    display: block;
 }
 
 .testimonial-text {
@@ -234,3 +253,31 @@ button[type="submit"] {
         width: 21rem;
     }
 }
+
+@media only screen and (max-width: 1024px){
+    .hidden-desktop {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 1025px){
+    .hidden-mobile {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 500px){
+    .carousel-image {
+        max-height: 80vh;
+    }
+}
+
+@media only screen and (max-aspect-ratio: 5/3){
+    .testimonial-header-padding {
+    padding-top: 5vh;
+    margin-bottom: 5vh
+    }
+}
+

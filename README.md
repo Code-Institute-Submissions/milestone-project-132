@@ -134,6 +134,9 @@ The project was deployed from its [GitHub repository](https://github.com/spf34/m
 ## Credits ##
 
 ### Code ###
+The navbar is very closely based on examples provided by Bootstrap:
+[Bootstrap 4 navbar](https://getbootstrap.com/docs/4.0/components/navbar/)
+
 The Card section of the About page is very closely modelled on examples provided in the Card section of the components page on the bootstrap website:
 [Bootstrap 4 Card Component](https://getbootstrap.com/docs/4.5/components/card/)
 

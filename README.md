@@ -57,29 +57,39 @@ On each page:
 - The navbar will collapse into the burger icon on smaller devices to save screen space
 - The navbar is fixed on the About page but not on the others. I found this to be useful as this page is the only one long enough for substantial scrolling. For consistency, it may have been better to have a universal behaviour.
 - Footer with social media links (Instagram & YouTube) and a further link to the initial page position
+- Underlining of the active page/section was removed as this could be slightly confusing with the merger of Home and About into one page but two sections
+
+[Home](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/home-live.png)
 
 On the Home/About page (as noted above, these two were combined)
 - Hero image to catch the user's eye and immediately set the context of the app - men's haircuts
 - An About section featuring Bootstrap's Card component to easily display 4 facets of the app, along with images of well styled gents. The Card component will be responsive in the sense that the 4 cards will move to 2 rows of 2 when the screen width is smaller than Bootstrap's xl size.
 - A reference to Einstein's quote about god not playing dice, along with an image of his own "Hairitage", i.e. the evolution of his famous hair over the years. The idea being that using Hairitage ensures the user will no longer be "playing dice" whenever they visit a new barber
 
+[About](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/about-live.png)
+
 On the Testimonials page
 - Bootstrap's Carousel component featuring 4 images, together with quotes, from happy users of the app
 - The images and quotes will be used to highlight common problems that the app can address. For example, a man with an esoteric looking mohican states that his hair can only be styled/cut right by looking at previous pictures of it. Having used the Before/After feature of the app to record previous cuts, this is no problem for our gent.
+
+[Testimonials](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/testimonials-live.png)
 
 On the Sign Up page
 - A very simple input form requiring first name, last name and email address
 - A button accompanies the form, declaring that the user can "Request Download Link"
 - A background image further enforces the idea of the application and its users as being fashionable gents
 
+[Sign up](https://github.com/spf34/milestone-project-1/tree/master/assets/images/app/sign-up-live.png)
+
 ## Technologies, Frameworks & Tools Used ##
 - HTML/HTML5
 - CSS/CSS3
-- Bootstrap 4
-- Gitpod
-- Github
-- Font Awesome
-- Google Fonts
+- Bootstrap 4: Framework with pre-built HTML/CSS features
+- Gitpod: online IDE
+- Github: version control framework hosting code repository
+- Font Awesome: source of icons
+- Google Fonts: source of 'Roboto' and 'Playfair Display' fonts
+- tinypng: reduce image file size
 
 ## Testing ##
 - [HTML code validator](https://validator.w3.org/) - No errors or warnings (after fixing 1 inital bug identified this way)
@@ -90,6 +100,7 @@ On the Sign Up page
 - Checking for and removing any unused features within css classes
 - Checking all images have alternate text (background-images were excluded from the check as they are purely aestetic)
 - Test using Chrome and Safari
+- Check that all Bootstrap columns are children of Bootstrap rows
 
 ## Bugs ##
 - The right navigation pane for the carousel on the Testimonials page was blocking the navigation links in the upper right toolbar. To fix the issue I used absolute positioning to move the navigation panes down.

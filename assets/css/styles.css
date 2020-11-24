@@ -198,10 +198,6 @@ button[type="submit"] {
     font-size: 16px;
 }
 
-.active {
-    border-bottom: 2px solid white;
-}
-
 /* -------------- Footer Styling -------------- */
 
 .footer-styling {

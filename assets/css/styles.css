@@ -28,7 +28,7 @@
     color: seagreen;
 }
 
-/* -------------- Home Page Styling -------------- */
+/* -------------- Home Styling -------------- */
 
 .hero-image{
     height: 88.5vh;
@@ -109,7 +109,7 @@
 }
 
 .carousel-caption {
-    background-color: #CDCDCD; 
+    background-color: rgba(200, 200, 200, 0.7);
     background-position: center center; 
     font-size: 16px;
     width: 100%;
@@ -117,6 +117,18 @@
     bottom: 0px;
     left: 0% !important;
     right: 0% !important;
+    padding: 0px 10px; 
+}
+
+/* Used to ensure the carousel navigation links do not block navbar links */
+.carousel-control-prev {
+    height: 80% !important;
+    top: 20% !important;
+}
+
+.carousel-control-next {
+    height: 80% !important;
+    top: 20% !important;
 }
 
 .carousel-image {
@@ -167,6 +179,7 @@
 .form-control {
      line-height: 50px;
      margin: 5px 0px;
+     background-color: rgba(200, 200, 200, 0.7);
 }
 
 .submit-button {
@@ -191,6 +204,10 @@ button[type="submit"] {
 .scissor-icon {
     color: #C0C0C0;
     font-size: 16px;
+}
+
+.active {
+    border-bottom: 2px solid white;
 }
 
 /* -------------- Footer Styling -------------- */

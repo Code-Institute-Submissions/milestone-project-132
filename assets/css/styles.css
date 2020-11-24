@@ -11,10 +11,6 @@
     color: seagreen;
 }
 
-.text-grey {
-    color: #808080;
-}
-
 .text-playfair {
     font-family: "Playfair Display", sans-serif;
 }
@@ -32,7 +28,7 @@
 
 .hero-image{
     height: 88.5vh;
-    width:100%;
+    width: 100%;
     background-image: url("../images/home/hero-haircut.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,7 +41,7 @@
 }
 
 .header-text {
-    text-transform:uppercase;
+    text-transform: uppercase;
     font-weight: 500; 
     font-family: "Playfair Display";
     color: #fafafa;
@@ -64,7 +60,7 @@
     font-size: 32px;
 }
 
-.einstein-image{
+.einstein-image {
     margin: auto;
     width: 65%;
     display: block;
@@ -115,6 +111,7 @@
     width: 100%;
     position: relative;
     bottom: 0px;
+    /* Unable to find a better way to spread the container out across the screen */
     left: 0% !important;
     right: 0% !important;
     padding: 0px 10px; 
@@ -171,7 +168,7 @@
 }
 
 .center-form {
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 120px;
     margin: 0px;
 }
@@ -201,11 +198,6 @@ button[type="submit"] {
     font-size: 16px;
 }
 
-.scissor-icon {
-    color: #C0C0C0;
-    font-size: 16px;
-}
-
 .active {
     border-bottom: 2px solid white;
 }
@@ -225,6 +217,7 @@ button[type="submit"] {
     line-height: 20px;
     margin: 0;
 }
+
 .footer-styling ul {
     margin-bottom: 0px;
 }
@@ -241,7 +234,6 @@ button[type="submit"] {
 .footer-brandname-link {
      color: #808080;
 }
-
 
 /* -------------- Media Queries -------------- */
 
@@ -285,16 +277,17 @@ button[type="submit"] {
 
 }
 
+/* Limit the amount by which wide testimonial images can be vertically stretched */ 
 @media only screen and (min-width: 500px){
     .carousel-image {
         max-height: 80vh;
     }
 }
 
+/* Add some vertical spacing around 'Testimonial' title on 'longer devices */ 
 @media only screen and (max-aspect-ratio: 5/3){
     .testimonial-header-padding {
     padding-top: 5vh;
     margin-bottom: 5vh
     }
 }
-

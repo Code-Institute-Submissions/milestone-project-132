@@ -24,10 +24,17 @@ Future features of the application will be:
 
 ## UX ##
 User stories:
+- As a user type, I have no knowledge of the app but have heard about it, e.g. through word of mouth
 - As a user type, I have some knowledge of the application and would like to understand it better
-- As a user type, I am aware of the product and a range of its features and would like to have some knowledge of the application and would like to understand it better
+- As a user type, I am aware of the product and a range of its features and would like to sign up
 
+Site owner story:
+- Wants to present the basics of what the application can do in an manner that will entice potential users to sign up for the beta verison of the app.
 
+![Desktop Home](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-home.png)
+![Desktop About](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-about.png)
+![Desktop Testimonials](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-testimonials.png)
+![Desktop Sign-Up](https://github.com/spf34/milestone-project-1/tree/master/assets/images/wireframes/desktop-sign-up.png)
 
 
 ## Features ##

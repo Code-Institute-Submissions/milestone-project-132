@@ -82,11 +82,13 @@ On the Sign Up page
 - GoogleFonts
 
 ## Testing ##
-- [HTML code validator]: (https://validator.w3.org/) 
-- [CSS code validator]: (https://jigsaw.w3.org/css-validator/)
+- [HTML code validator]: (https://validator.w3.org/) No errors or warnings (after fixing 1 inital bug identified this way)
+- [CSS code validator]: (https://jigsaw.w3.org/css-validator/) No erros or warnings
 - Checking that all links are live and lead to the expected destination. Checking that this is true for all pages.
-- 
-
+- Viewing all pages on all of the available devices in Chrome developer tools. Several issues discovered this way and fixed satisfactorily. There may still be screen sizes for which the behaviour is not ideal.
+- Checking for and removing any unused css classes
+- Checking for and removing any unused features within css classes
+- Checking all images have alternate text
 
 ## Bugs ##
 - The right navigation pane for the carousel on the 'Testimonials' page was blocking the navigation links in the upper right toolbar. To fix the issue I used absolute positioning to move the navigation panes down.
@@ -97,11 +99,15 @@ This meant that the screen was filled without undue distortion of the image. How
 
 - A similar fix based on a media query was used to increase the size of the Cards on the 'About' page on tablet-sized devices. At this size, only two columns were being displayed, however, the space was not being well utilised before this query was added.
 
+- Found bug with initial HTML validator check (mistakenly using an <a> instead of a <div>)
+
 ### Unresolved/Disappeared ###
 - I had an error related to using a file originally named "about.html". Upon changing the name the issue seemed to disappear (and reappear upon changing it back)
 
 
 ## Deployment ##
+
+
 
 ## Credits ##
 
